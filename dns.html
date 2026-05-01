@@ -27,13 +27,35 @@
     <a href="multitierArch.html">Multi_Arch</a>
     <a href="ftp.html">FTP</a>
 
+<main>
+  <h1>Domain Name System (DNS)</h1>
+  <img src="images/dns.png" alt="DNS Illustration" width="400">
+  <h2><u>DNS Illustration</u></h2>
 
-          </div>
-        <h1>DNS(Domain Name System)</h1>
-        <img src = "images/dns.png" alt = "DNS Illustration">
-        <p>DNS stands for Domain Name System. It is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. DNS translates human-readable domain names (e.g., www.example.com) into IP addresses (e.g., 93.184.216.34).</p>
-        <p>DNS is essential for the functioning of the internet, as it allows users to access websites and other resources using easy-to-remember domain names instead of having to remember complex IP addresses. When a user types a domain name into their web browser, the DNS system is responsible for resolving that domain name into the corresponding IP address, allowing the browser to connect to the correct server and retrieve the requested content.</p>
-        
+  <h3>Definition:</h3>
+  <p>The Domain Name System (DNS) is the internet's phonebook, translating human-friendly domain names into IP addresses that computers use to communicate.</p>
+
+  <h3>How DNS Works:</h3>
+  <ol>
+    <li>User enters a domain name in the browser.</li>
+    <li>The DNS resolver checks its cache or queries root servers.</li>
+    <li>Root servers direct the query to the correct TLD server (e.g., .com).</li>
+    <li>The TLD server points to the authoritative server for the domain.</li>
+    <li>The authoritative server returns the IP address to the resolver.</li>
+    <li>The browser connects to the web server using that IP.</li>
+  </ol>
+
+  <h3>Key Components:</h3>
+  <ul>
+    <li><strong>Root Servers:</strong> Direct queries to top-level domains.</li>
+    <li><strong>TLD Servers:</strong> Handle domains like .com, .org, .net.</li>
+    <li><strong>Authoritative Servers:</strong> Store actual domain records.</li>
+    <li><strong>Resolvers:</strong> Local DNS that caches results for speed.</li>
+  </ul>
+
+  <h3>Importance:</h3>
+  <p>DNS makes the internet usable by allowing people to type easy-to-remember names instead of complex IP addresses. It also improves speed through caching and supports security features like DNSSEC.</p>
+</main>
         
     </body>
 </html>
