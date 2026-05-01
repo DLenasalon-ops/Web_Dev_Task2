@@ -100,3 +100,24 @@ footer {
             color:black;
 
         }
+h1 {
+    color: #333;
+}
+
+h3 {
+    color: #444;
+    margin-top: 20px;
+}
+h4 {
+    color: #555;
+    margin-top: 15px;
+}
+
+h5{
+    color: #666;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
