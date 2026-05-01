@@ -12,18 +12,25 @@ body {
 
 /* Body styling */
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #f9f9f9;
   color: #333;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
 }
+
+
 
 /* Navigation bar */
 .topnav {
-  background-color: #222;
-  padding: 10px 20px;
+  background-color: #023e8a;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+
 
 .topnav ul {
   list-style: none;
