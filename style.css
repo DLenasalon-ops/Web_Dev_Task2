@@ -3,6 +3,85 @@ body {
     margin: 20px;
 }
 
+/* Global reset *
+/{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Navigation bar */
+.topnav {
+  background-color: #222;
+  padding: 10px 20px;
+}
+
+.topnav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav ul li {
+  margin: 0 15px;
+}
+
+.topnav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.topnav ul li a:hover {
+  color: #ff9800; /* highlight color */
+}
+
+/* Page headings */
+h1, h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: #444;
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Content sections */
+section {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: #fff;
+  margin-top: 40px;
+}
 .topnav{
             background-color: black;
             overflow: hidden;
