@@ -48,10 +48,37 @@ body {
   font-weight: 500;
   transition: color 0.3s ease;
 }
-
-.topnav ul li a:hover {
-  color: #ff9800; /* highlight color */
+/* Welcome message */
+.welcome {
+  font-size: 3em;       /* Bigger size */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  color: maroon;
 }
+
+main, .content {
+  background: rgba(255, 255, 255, 0.9); /* semi-transparent white box */
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+
+
+
+/* Intro paragraph */
+.intro {
+  font-size: 1.3em;     /* Slightly larger than normal text */
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+  color: #333;
+}
+
 
 /* Page headings */
 h1, h2 {
